@@ -322,9 +322,9 @@
 ## **PYMBLE 2023 EXT 1**
 - 4. Which polynomial has a root at x = 1 of multiplicity 3?
   - A. x³ - 3x + 2
-  - B. x³ - 2x² + 2x - 1
+  - B. x⁴ - 2x³ + 2x - 1
   - C. x³ + 4x² + 5x + 2
-  - D. x³ + 2x² - 2x - 1
+  - D. x⁴ + 2x³ - 2x - 1
 
 - Question 11 (17 marks)
   - (e) The polynomial P(x) = 2x⁴ - 11x³ + 19x² - 13x + 3 has roots α, β, γ and δ.

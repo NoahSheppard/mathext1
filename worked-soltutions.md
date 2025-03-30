@@ -6,9 +6,9 @@
 **Solution:**
 - If a polynomial has zeros at x = -1, x = -3, and x = α, then it can be written as: P(x) = k(x+1)(x+3)(x-α) where k is a constant.
   - When a polynomial has zeros, we can write it as a product of factors (x-zero).
-- Expanding: P(x) = k(x+1)(x+3)(x-α) = k[(x+1)(x+3)](x-α) = k[(x²+4x+3)](x-α)
+- Expanding: P(x) = k(x+1)(x+3)(x-α) = k\[(x+1)(x+3)](x-α) = k\[(x²+4x+3)](x-α)
   - Multiplying the first two brackets.
-- P(x) = k[x³+4x²+3x-αx²-4αx-3α] = k[x³+(4-α)x²+(3-4α)x-3α]
+- P(x) = k\[x³+4x²+3x-αx²-4αx-3α] = k\[x³+(4-α)x²+(3-4α)x-3α]
   - Distributing the third factor and collecting like terms.
 - Comparing with x³ + 2x² - 5x - 6:
   - k(4-α) = 2, so k = 2/(4-α)
@@ -813,7 +813,7 @@ Find α, β and γ given that one of the roots is the sum of the other two.
 - Rewrite by subtracting 1 from both sides:
   - (2x+1)/(x-2) - 1 ≥ 0
 - Find a common denominator:
-  - [(2x+1) - (x-2)]/(x-2) ≥ 0
+  - \[(2x+1) - (x-2)]/(x-2) ≥ 0
   - (2x+1-x+2)/(x-2) ≥ 0
   - (x+3)/(x-2) ≥ 0
 - For a rational expression to be ≥ 0, either:
@@ -1061,7 +1061,7 @@ Find α, β and γ given that one of the roots is the sum of the other two.
 - Subtract 1 from both sides:
   - 2x/(x+3) - 1 ≤ 0
 - Find a common denominator:
-  - [2x - (x+3)]/(x+3) ≤ 0
+  - \[2x - (x+3)]/(x+3) ≤ 0
   - (2x - x - 3)/(x+3) ≤ 0
   - (x - 3)/(x+3) ≤ 0
 - For a rational expression to be ≤ 0, we need the numerator and denominator to have opposite signs
@@ -1108,7 +1108,7 @@ Find α, β and γ given that one of the roots is the sum of the other two.
 - Since P(x) has degree 6, and when divided by Q(x) gives a remainder of degree 3, we can determine:
   - degree of S(x) = degree of P(x) - degree of Q(x) = 6 - n
 - Now for H(x) = P(x)Q(x), we can substitute P(x) = Q(x)·S(x) + R(x):
-  - H(x) = Q(x)[Q(x)·S(x) + R(x)]
+  - H(x) = Q(x)\[Q(x)·S(x) + R(x)]
   - H(x) = Q(x)²·S(x) + Q(x)·R(x)
 - The degree of H(x) is the maximum of the degrees of Q(x)²·S(x) and Q(x)·R(x):
   - Degree of Q(x)²·S(x) = 2n + (6 - n) = n + 6
@@ -1132,7 +1132,7 @@ Find α, β and γ given that one of the roots is the sum of the other two.
 - Add 1 to both sides:
   - 1/(x-3) + 1 ≥ 0
 - Find a common denominator:
-  - [1 + (x-3)]/(x-3) ≥ 0
+  - \[1 + (x-3)]/(x-3) ≥ 0
   - (x-2)/(x-3) ≥ 0
 - For a rational expression to be ≥ 0, either:
   - Both numerator and denominator are ≥ 0, OR
@@ -1834,7 +1834,7 @@ So:
 - Taking the derivative of both sides:
   - P'(x) = 0 + (x - 1)² × Q'(x) + 2(x - 1) × Q(x)
   - P'(x) = (x - 1)² × Q'(x) + 2(x - 1) × Q(x)
-  - P'(x) = (x - 1)[2Q(x) + (x - 1)Q'(x)]
+  - P'(x) = (x - 1)\[2Q(x) + (x - 1)Q'(x)]
 - Since (x - 1) is a factor of P'(x), we've shown that P'(x) is divisible by (x - 1).
 
 ##### (iii) Given also that P'(x) is divisible by (x + 1) and P(-1) = -1, find P(x).
@@ -2051,7 +2051,7 @@ The answer is B. x³ - 2x² + 2x - 1 = (x-1)³
 - For a polynomial P(x) = ax⁴ + bx³ + cx² + dx + e with roots α, β, γ, and δ, we can express it as:
   - P(x) = a(x - α)(x - β)(x - γ)(x - δ)
 - Expanding this:
-  - P(x) = a[x⁴ - (α+β+γ+δ)x³ + (αβ+αγ+αδ+βγ+βδ+γδ)x² - (αβγ+αβδ+αγδ+βγδ)x + αβγδ]
+  - P(x) = a\[x⁴ - (α+β+γ+δ)x³ + (αβ+αγ+αδ+βγ+βδ+γδ)x² - (αβγ+αβδ+αγδ+βγδ)x + αβγδ]
 - Comparing with P(x) = 2x⁴ - 11x³ + 19x² - 13x + 3:
   - a = 2
   - -a(α+β+γ+δ) = -11, so α+β+γ+δ = 11/2
@@ -2268,11 +2268,11 @@ Therefore, P(x) ≥ 0 when x ≤ -3 or x ≥ 2.
   - a(x) + b(x)
   - = (a+b)(x)
 - I have applied that rule, but it looks ugly. Let me simplify the left side
-  - [(3)-(x²+2x)](x) > 0
-  - [3-x²-2x](x) > 0
-  - [-x²-2x+3](x) > 0
+  - \[(3)-(x²+2x)](x) > 0
+  - \[3-x²-2x](x) > 0
+  - \[-x²-2x+3](x) > 0
 - Now, -x² is annoying, so I will times both sides by -1 to get this
-  - [x²+2x-3](x) < 0
+  - \[x²+2x-3](x) < 0
 - Do NOT forget to flip the sign!
   - (x+3)(x-1)(x) < 0
 - That was done with mental math. Using PSF:

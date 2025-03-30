@@ -449,3 +449,337 @@
   - 1/α + 1/β + 1/γ + 1/δ
 - Equals
   - 5/7 
+
+### Question 12(d)
+When the polynomial P(x) is divided by (x - 1)(x + 4), the quotient is Q(x) and the remainder is R(x). The remainder R(x) can be written in the general form as R(x) = ax + b.
+- It is known that P(1) = -4 and when P(x) is divided by (x + 4), the remainder is 1.
+- Find the values of a and b.
+
+#### Solution:
+- When P(x) is divided by (x - 1)(x + 4), we can write:
+  - P(x) = (x - 1)(x + 4)Q(x) + R(x)
+  - Since the divisor is degree 2, the remainder R(x) must be degree at most 1, so R(x) = ax + b
+
+- Using the first condition P(1) = -4:
+  - P(1) = (1 - 1)(1 + 4)Q(1) + R(1)
+  - P(1) = 0 × Q(1) + R(1)
+  - -4 = R(1) = a(1) + b
+  - Therefore: a + b = -4 ... (Equation 1)
+
+- Using the second condition that when P(x) is divided by (x + 4), the remainder is 1:
+  - By the Remainder Theorem, this means P(-4) = 1
+  - Substituting into our original equation:
+  - P(-4) = (-4 - 1)(-4 + 4)Q(-4) + R(-4)
+  - P(-4) = (-5)(0)Q(-4) + R(-4)
+  - 1 = R(-4) = a(-4) + b
+  - Therefore: -4a + b = 1 ... (Equation 2)
+
+- Solving the system of equations:
+  - a + b = -4
+  - -4a + b = 1
+  - Subtracting the second equation from the first:
+  - 5a = -5
+  - a = -1
+  - Substituting into the first equation:
+  - -1 + b = -4
+  - b = -3
+
+- Therefore a = -1 and b = -3
+
+## **CRANBROOK 2023 TRIAL EXT 1**
+### MCQ: Remainder when Q(x) is divided by (x+1)
+The polynomials P(x) and Q(x) are such that P(x) = (x+3)(x-2)Q(x). When P(x) is divided by (x+1), the remainder is 12. What is the remainder when Q(x) is divided by (x+1)?
+- A. -3
+- B. -2
+- C. 2
+- D. 3
+
+#### Solution:
+- We know P(x) = (x+3)(x-2)Q(x)
+- By the Remainder Theorem, when P(x) is divided by (x+1), the remainder equals P(-1)
+- We're given that the remainder is 12, so P(-1) = 12
+  
+- Substituting x = -1 into the equation P(x) = (x+3)(x-2)Q(x):
+  - P(-1) = (-1+3)(-1-2)Q(-1)
+  - P(-1) = (2)(-3)Q(-1)
+  - 12 = -6Q(-1)
+  - Q(-1) = -2
+  
+- By the Remainder Theorem, the remainder when Q(x) is divided by (x+1) is Q(-1) = -2
+- Therefore, the answer is B. -2
+
+### Question 11(a): Solve |5x-1| < 5
+#### Solution:
+- Using the definition of absolute value, we have two cases:
+  - Case 1: 5x-1 ≥ 0, which means x ≥ 1/5
+    - Then |5x-1| = 5x-1
+    - So: 5x-1 < 5
+    - 5x < 6
+    - x < 6/5
+    - So for this case: 1/5 ≤ x < 6/5
+      
+  - Case 2: 5x-1 < 0, which means x < 1/5
+    - Then |5x-1| = -(5x-1) = 1-5x
+    - So: 1-5x < 5
+    - -5x < 4
+    - x > -4/5
+    - So for this case: -4/5 < x < 1/5
+      
+- Combining both cases: -4/5 < x < 6/5
+
+### Question 11(c): Find values for polynomial roots
+The polynomial P(x) = x³ + 3x² - 4x - 5 has roots α, β and γ
+
+#### Part (i): Find α + β + γ
+- For a polynomial of form ax³ + bx² + cx + d, the sum of roots is -b/a
+- In P(x) = x³ + 3x² - 4x - 5, we have a = 1 and b = 3
+- Therefore, α + β + γ = -3/1 = -3
+
+#### Part (ii): Find α² + β² + γ²
+- For a cubic polynomial with roots α, β, and γ:
+  - (α + β + γ)² = α² + β² + γ² + 2(αβ + αγ + βγ)
+  - So α² + β² + γ² = (α + β + γ)² - 2(αβ + αγ + βγ)
+      
+- We know α + β + γ = -3
+- For a polynomial of form ax³ + bx² + cx + d:
+  - The sum of products of roots taken two at a time is c/a
+  - So αβ + αγ + βγ = -4/1 = -4
+      
+- Therefore:
+  - α² + β² + γ² = (-3)² - 2(-4)
+  - α² + β² + γ² = 9 + 8
+  - α² + β² + γ² = 17
+
+## **FORT ST HIGH**
+### MCQ: Solution to inequality 3/(x-2) ≤ 4
+The solution to the inequality 3/(x-2) ≤ 4 is given by:
+- A. x < -2 and x ≥ -11/4
+- B. x > -2 and x ≤ -11/4
+- C. x < 2 and x ≥ 11/4
+- D. x > 2 and x ≤ 11/4
+
+#### Solution:
+- We need to be careful with the domain: x ≠ 2 (since we can't divide by zero)
+- Multiplying both sides by (x-2):
+  - We need to consider two cases based on whether (x-2) is positive or negative
+
+- Case 1: When x > 2, (x-2) is positive
+  - 3 ≤ 4(x-2)
+  - 3 ≤ 4x-8
+  - 11 ≤ 4x
+  - x ≥ 11/4
+  - So for this case: x > 2 and x ≥ 11/4, which simplifies to x ≥ 11/4 (since 11/4 > 2)
+
+- Case 2: When x < 2, (x-2) is negative
+  - Multiplying an inequality by a negative number reverses the direction
+  - 3 ≥ 4(x-2)
+  - 3 ≥ 4x-8
+  - 11 ≥ 4x
+  - x ≤ 11/4
+  - So for this case: x < 2 and x ≤ 11/4, which simplifies to x < 2 (since 11/4 < 2)
+
+- Combining both cases: x < 2 or x ≥ 11/4
+- None of the answers match this exactly, but looking closer at the options, let's verify:
+  - D states: x > 2 and x ≤ 11/4
+  - Since x > 2 implies x > 11/4, but we also need x ≤ 11/4, this creates an impossible condition
+  - The inequality should be "or" not "and"
+  - D is incorrect, but the closest answer would be x > 2 and x ≥ 11/4 (which simplifies to x ≥ 11/4)
+
+- Option D should be the answer, but there appears to be a typo in the question. The correct solution is x ≥ 11/4.
+
+## **FRENSHAM HIGH**
+### MCQ: Factor of polynomial
+Which of the following is NOT a factor of the polynomial P(x) = x³ - x² - 8x + 12 ?
+- (A) (x + 3)
+- (B) (x + 3)²
+- (C) (x - 2)
+- (D) (x - 2)²
+
+#### Solution:
+- To check if (x + 3) is a factor, we evaluate P(-3):
+  - P(-3) = (-3)³ - (-3)² - 8(-3) + 12
+  - P(-3) = -27 - 9 + 24 + 12
+  - P(-3) = 0
+  - So (x + 3) is a factor
+
+- To check if (x + 3)² is a factor, we need to check if (x + 3) is a repeated factor:
+  - We need to evaluate P'(-3) where P'(x) is the derivative of P(x)
+  - P'(x) = 3x² - 2x - 8
+  - P'(-3) = 3(-3)² - 2(-3) - 8
+  - P'(-3) = 3(9) + 6 - 8
+  - P'(-3) = 27 + 6 - 8 = 25
+  - P'(-3) ≠ 0, so (x + 3) is not a repeated factor
+  - Therefore (x + 3)² is NOT a factor
+
+- To check if (x - 2) is a factor, we evaluate P(2):
+  - P(2) = (2)³ - (2)² - 8(2) + 12
+  - P(2) = 8 - 4 - 16 + 12
+  - P(2) = 0
+  - So (x - 2) is a factor
+
+- To check if (x - 2)² is a factor, we evaluate P'(2):
+  - P'(2) = 3(2)² - 2(2) - 8
+  - P'(2) = 3(4) - 4 - 8
+  - P'(2) = 12 - 4 - 8 = 0
+  - Since P'(2) = 0, (x - 2) is a repeated root
+  - So (x - 2)² is a factor
+
+- Therefore, option (B) (x + 3)² is NOT a factor of the polynomial
+
+### Question 11(c): Polynomial roots
+Consider the polynomial P(x) = x³ - 2px + q where p and q are constants and p ≠ 0.
+It is given that α, β and α + β are roots of the equation P(x) = 0.
+
+#### Part (i): Prove that α = -β
+- Let's call the three roots α, β, and γ, where γ = α + β
+- For a cubic polynomial with constant term q, the product of roots is -q
+- So α · β · γ = -q
+- Substituting γ = α + β:
+  - α · β · (α + β) = -q
+  - α²β + αβ² = -q
+
+- For a polynomial of form x³ + 0x² - 2px + q:
+  - The sum of roots is 0 (since coefficient of x² is 0)
+  - So α + β + γ = 0
+  - Substituting γ = α + β:
+  - α + β + (α + β) = 0
+  - 2α + 2β = 0
+  - 2(α + β) = 0
+  - α + β = 0
+  - Therefore, α = -β which is what we needed to prove
+
+#### Part (ii): Find all the roots of P(x) = 0 in terms of p
+- We've shown α = -β, so the roots are α, -α, and γ = α + (-α) = 0
+- One root is 0
+- Let's find the other roots using the remaining conditions
+
+- Since one root is 0, (x) is a factor of P(x)
+- So P(x) = x(x² - 2p)
+- The other two roots come from solving x² - 2p = 0
+- x² = 2p
+- x = ±√(2p)
+
+- Therefore, the three roots of P(x) = 0 are:
+  - 0, √(2p), and -√(2p)
+
+## **GIRRAWEEN HIGH 2024 EXT 1**
+### MCQ: Multiplicity of root
+What is the multiplicity of the root x = 1 of the equation f(x) = 3x⁵ - 5x⁴ + 5x - 3?
+- A. 1
+- B. 2
+- C. 3
+- D. 4
+
+#### Solution:
+- To determine multiplicity, we need to check:
+  - If f(1) = 0, then x = 1 is a root (multiplicity at least 1)
+  - If f'(1) = 0, then the multiplicity is at least 2
+  - If f''(1) = 0, then the multiplicity is at least 3, etc.
+
+- Check if x = 1 is a root by evaluating f(1):
+  - f(1) = 3(1)⁵ - 5(1)⁴ + 5(1) - 3
+  - f(1) = 3 - 5 + 5 - 3 = 0
+  - Since f(1) = 0, x = 1 is a root (multiplicity at least 1)
+
+- Take the derivative: f'(x) = 15x⁴ - 20x³ + 5
+  - f'(1) = 15(1)⁴ - 20(1)³ + 5
+  - f'(1) = 15 - 20 + 5 = 0
+  - Since f'(1) = 0, the multiplicity is at least 2
+
+- Take the second derivative: f''(x) = 60x³ - 60x²
+  - f''(1) = 60(1)³ - 60(1)² = 60 - 60 = 0
+  - Since f''(1) = 0, the multiplicity is at least 3
+
+- Take the third derivative: f'''(x) = 180x² - 120x
+  - f'''(1) = 180(1)² - 120(1) = 180 - 120 = 60 ≠ 0
+  - Since f'''(1) ≠ 0, the multiplicity is exactly 3
+
+- Therefore, option C. 3 is correct
+
+### MCQ: Expression for polynomial
+The polynomial f(x) = 2x² + kx + 4 can be expressed as f(x) = (x - 2)g(x) + 6.
+Which of the following is the correct expression for g(x)?
+- A. 2x - 1
+- B. 2x + 1
+- C. 2x - 3
+- D. 2x + 3
+
+#### Solution:
+- Using polynomial division or the remainder theorem:
+  - When dividing f(x) by (x - 2), the remainder is f(2) = 2(2)² + k(2) + 4 = 8 + 2k + 4 = 12 + 2k
+  - We're told the remainder is 6, so:
+  - 12 + 2k = 6
+  - 2k = -6
+  - k = -3
+
+- Now we have f(x) = 2x² - 3x + 4
+- We can use polynomial long division to find g(x):
+  - When dividing 2x² - 3x + 4 by (x - 2):
+  - First term of quotient: 2x² ÷ x = 2x
+  - Multiply: 2x(x - 2) = 2x² - 4x
+  - Subtract: (2x² - 3x + 4) - (2x² - 4x) = x + 4
+  - Next term of quotient: x ÷ x = 1
+  - Multiply: 1(x - 2) = x - 2
+  - Subtract: (x + 4) - (x - 2) = 6
+  - So g(x) = 2x + 1
+
+- Therefore, option B. 2x + 1 is correct
+
+### Question 11(a): Solve inequality
+Solve 1/(2x-1) > 0
+
+#### Solution:
+- For a fraction to be positive, either both numerator and denominator are positive, or both are negative
+- Since the numerator is 1 (which is always positive), the denominator must be positive
+- So 2x - 1 > 0
+- 2x > 1
+- x > 1/2
+
+- Remember to check the domain: 2x - 1 ≠ 0, so x ≠ 1/2
+- Therefore, the solution is x > 1/2
+
+### Question 11(b): Find roots of polynomial
+The polynomial 4x³ - 12x² + 5x + 6 = 0 has roots α, β and γ.
+Find α, β and γ given that one of the roots is the sum of the other two.
+
+#### Solution:
+- Let's say γ = α + β
+- For a cubic equation ax³ + bx² + cx + d = 0:
+  - Sum of roots = -b/a
+  - Sum of products of roots taken two at a time = c/a
+  - Product of roots = -d/a
+
+- In our equation 4x³ - 12x² + 5x + 6 = 0:
+  - a = 4, b = -12, c = 5, d = 6
+  - Sum of roots: α + β + γ = -b/a = -(-12)/4 = 3
+  - Sum of products: αβ + αγ + βγ = c/a = 5/4
+  - Product of roots: αβγ = -d/a = -6/4 = -3/2
+
+- Substituting γ = α + β:
+  - α + β + (α + β) = 3
+  - 2(α + β) = 3
+  - α + β = 3/2
+
+- Using the product condition:
+  - αβ(α + β) = -3/2
+  - αβ(3/2) = -3/2
+  - αβ = -1
+
+- Now we have:
+  - α + β = 3/2
+  - αβ = -1
+
+- These are the Vieta formulas for a quadratic equation x² - (3/2)x - 1 = 0
+- Using the quadratic formula:
+  - x = (3/2 ± √((3/2)² - 4(-1)))/2
+  - x = (3/2 ± √(9/4 + 4))/2
+  - x = (3/2 ± √(9/4 + 16/4))/2
+  - x = (3/2 ± √(25/4))/2
+  - x = (3/2 ± 5/2)/2
+  - x = 3/4 ± 5/4
+  - x = 2 or x = -1/2
+
+- So α = 2 and β = -1/2
+- And γ = α + β = 2 + (-1/2) = 3/2
+
+- Therefore, the three roots are: 2, -1/2, and 3/2

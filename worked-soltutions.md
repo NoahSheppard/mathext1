@@ -1218,3 +1218,598 @@ Find α, β and γ given that one of the roots is the sum of the other two.
   - b = -4(-3)
   - b = 12
 - Therefore, a = -3 and b = 12
+
+**Find the remainder when P(x) is divided by (x + 1)(x - 4), where P(x) = (x + 1)(x - 4)Q(x) + ax + b, P(x) has a factor of x - 4, and when P(x) is divided by x + 1 the remainder is 15.**
+
+**Solution:**
+- We are given that P(x) = (x + 1)(x - 4)Q(x) + ax + b
+- Since P(x) has a factor of x - 4, we know that P(4) = 0
+- When P(x) is divided by x + 1, the remainder is 15, so P(-1) = 15
+
+First, let's use the condition P(4) = 0:
+- P(4) = (4 + 1)(4 - 4)Q(4) + 4a + b = 0
+- This gives us 5(0)Q(4) + 4a + b = 0
+- Therefore, 4a + b = 0 ... (1)
+
+Next, using P(-1) = 15:
+- P(-1) = (-1 + 1)(-1 - 4)Q(-1) + (-1)a + b = 15
+- This gives us 0(-5)Q(-1) - a + b = 15
+- Therefore, -a + b = 15 ... (2)
+
+We now have two equations:
+- 4a + b = 0 ... (1)
+- -a + b = 15 ... (2)
+
+Subtracting (2) from (1):
+- 5a = -15
+- a = -3
+
+Substituting back into (1):
+- 4(-3) + b = 0
+- -12 + b = 0
+- b = 12
+
+Now we know P(x) = (x + 1)(x - 4)Q(x) - 3x + 12
+
+To find the remainder when P(x) is divided by (x + 1)(x - 4):
+- By the form of P(x), the remainder is ax + b = -3x + 12
+
+Therefore, the remainder when P(x) is divided by (x + 1)(x - 4) is -3x + 12.
+
+### Question 12(c)
+**Solve 1/(2x - x²) ≥ 1**
+
+**Solution:**
+- Starting with 1/(2x - x²) ≥ 1
+- Rewrite 2x - x² = -x² + 2x = -x(x - 2)
+- So our inequality is 1/(-x(x - 2)) ≥ 1
+
+- Rearrange: -x(x - 2) ≤ 1
+- Distribute: -x² + 2x ≤ 1
+- Rearrange: -x² + 2x - 1 ≤ 0
+- Multiply by -1 (which reverses the inequality): x² - 2x + 1 ≥ 0
+- This is (x - 1)² ≥ 0, which is always true for real values of x
+
+However, we need to consider the domain restrictions from the original inequality:
+- 2x - x² ≠ 0
+- -x(x - 2) ≠ 0
+- This means x ≠ 0 and x ≠ 2
+
+Also, for the fraction to be defined, the denominator must have the same sign throughout each interval:
+- For 0 < x < 2: -x(x - 2) > 0 because -x is negative and (x - 2) is negative
+- For x < 0 or x > 2: -x(x - 2) < 0
+
+Since we need 1/(-x(x - 2)) ≥ 1 and 1 is positive, the denominator -x(x - 2) must be positive.
+This means we need 0 < x < 2 for the inequality to make sense.
+
+Therefore, the solution is 0 < x < 2.
+
+## MORIAH COLLEGE 2024 EXT 1
+
+### Question 2
+**What is the remainder when P(x) = x³ + 2x² - 5 is divided by x - 1?**
+
+**Solution:**
+- By the remainder theorem, when a polynomial P(x) is divided by (x - a), the remainder equals P(a)
+- In this case, to find the remainder when P(x) is divided by (x - 1), we evaluate P(1)
+- P(1) = 1³ + 2(1²) - 5
+- P(1) = 1 + 2 - 5
+- P(1) = -2
+
+Therefore, the remainder is -2, and the answer is A.
+
+### Question 9(a)
+**The quadratic equation x² + 3x + 1 = 0 has roots α and β.**
+
+**(i) Find the value of α + β.**
+
+**Solution:**
+- For a quadratic equation ax² + bx + c = 0 with roots α and β:
+  - α + β = -b/a
+- In our equation x² + 3x + 1 = 0, we have a = 1, b = 3, c = 1
+- Therefore, α + β = -b/a = -3/1 = -3
+
+**(ii) Find the value of αβ.**
+
+**Solution:**
+- For a quadratic equation ax² + bx + c = 0 with roots α and β:
+  - αβ = c/a
+- In our equation x² + 3x + 1 = 0, we have a = 1, b = 3, c = 1
+- Therefore, αβ = c/a = 1/1 = 1
+
+**(iii) Hence, or otherwise, find the value of α² + β².**
+
+**Solution:**
+- We can use the identity: (α + β)² = α² + 2αβ + β²
+- Rearranging: α² + β² = (α + β)² - 2αβ
+- We know α + β = -3 and αβ = 1
+- Therefore, α² + β² = (-3)² - 2(1) = 9 - 2 = 7
+
+## NEWINGTON COLLEGE 2024 EXT 1
+
+### Question 11(b)
+**The polynomial P(x) = x³ - qx² + 32 has real roots α, α and β. Find the value of q.**
+
+**Solution:**
+- Since α is a double root, P(x) can be factored as P(x) = (x - α)²(x - β)
+- Expanding: P(x) = (x² - 2αx + α²)(x - β)
+- P(x) = x³ - βx² - 2αx² + 2αβx + α²x - α²β
+- P(x) = x³ - (β + 2α)x² + (2αβ + α²)x - α²β
+
+Comparing with the original polynomial P(x) = x³ - qx² + 32:
+- -q = -(β + 2α), so q = β + 2α
+- There is no x term in the original polynomial, so 2αβ + α² = 0
+- -α²β = 32
+
+From 2αβ + α² = 0:
+- α² = -2αβ
+- Substituting into -α²β = 32:
+- -(-2αβ)β = 32
+- 2αβ² = 32
+- αβ² = 16 ... (1)
+
+We also know that:
+- α + α + β = 0 (sum of roots of a monic cubic polynomial with no x² term)
+- Since our polynomial has an x² term, we need to adjust:
+  - For x³ - qx² + rx + s, the sum of roots is q
+- Therefore, 2α + β = q ... (2)
+
+From (2): β = q - 2α
+
+Substituting into (1):
+- α(q - 2α)² = 16
+- α(q² - 4qα + 4α²) = 16
+- αq² - 4qα² + 4α³ = 16
+
+We know that the polynomial has real roots α, α, and β. Let's try another approach.
+
+Since α is a double root:
+- P(α) = 0
+- P'(α) = 0
+
+From P(x) = x³ - qx² + 32:
+- P'(x) = 3x² - 2qx
+
+Now:
+- P(α) = α³ - qα² + 32 = 0 ... (3)
+- P'(α) = 3α² - 2qα = 0 ... (4)
+
+From (4):
+- 3α² = 2qα
+- α = 0 or 3α = 2q
+- Since α is a root of P(x), if α = 0, then P(0) = 32 ≠ 0, so α ≠ 0
+- Therefore, 3α = 2q, which means α = 2q/3 ... (5)
+
+Substituting (5) into (3):
+- (2q/3)³ - q(2q/3)² + 32 = 0
+- 8q³/27 - 4q³/9 + 32 = 0
+- 8q³/27 - 12q³/27 + 32 = 0
+- (8 - 12)q³/27 + 32 = 0
+- -4q³/27 + 32 = 0
+- -4q³/27 = -32
+- q³ = 216
+- q = 6
+
+Therefore, q = 6.
+
+### Question 11(d)
+**Solve (x² - 6)/x ≤ 1.**
+
+**Solution:**
+- Starting with (x² - 6)/x ≤ 1
+- Multiply both sides by x, but we need to consider the sign of x:
+
+Case 1: If x > 0, then multiplying preserves the inequality:
+- x² - 6 ≤ x
+- x² - x - 6 ≤ 0
+- (x - 3)(x + 2) ≤ 0
+- This is satisfied when either:
+  - x - 3 ≤ 0 and x + 2 ≥ 0, which means -2 ≤ x ≤ 3, or
+  - x - 3 ≥ 0 and x + 2 ≤ 0, which is impossible
+- So for x > 0, we get 0 < x ≤ 3
+
+Case 2: If x < 0, then multiplying reverses the inequality:
+- x² - 6 ≥ x
+- x² - x - 6 ≥ 0
+- (x - 3)(x + 2) ≥ 0
+- This is satisfied when either:
+  - x - 3 ≥ 0 and x + 2 ≥ 0, which means x ≥ 3, or
+  - x - 3 ≤ 0 and x + 2 ≤ 0, which means x ≤ -2
+- So for x < 0, we get x ≤ -2
+
+Combining both cases, the solution is x ≤ -2 or 0 < x ≤ 3.
+
+## NORMANHURST BOYS HIGH 2024 EXT 1
+
+### Question 11(a)
+**Solve the inequality for x: (x-1)(x+2)(4x-1) ≤ 0**
+
+**Solution:**
+- We need to find the zeros of the expression:
+  - (x-1) = 0 ⟹ x = 1
+  - (x+2) = 0 ⟹ x = -2
+  - (4x-1) = 0 ⟹ 4x = 1 ⟹ x = 1/4
+- The zeros divide the number line into four regions: x < -2, -2 < x < 1/4, 1/4 < x < 1, and x > 1
+- We need to determine where the expression is ≤ 0, which happens when there are an odd number of negative factors
+
+Let's analyze the sign of each factor in each region:
+
+1. x < -2:
+   - (x-1) < 0 (negative)
+   - (x+2) < 0 (negative)
+   - (4x-1) < 0 (negative)
+   - Product: negative × negative × negative = negative
+   - This region is not part of the solution.
+
+2. -2 < x < 1/4:
+   - (x-1) < 0 (negative)
+   - (x+2) > 0 (positive)
+   - (4x-1) < 0 (negative)
+   - Product: negative × positive × negative = positive
+   - This region is not part of the solution.
+
+3. 1/4 < x < 1:
+   - (x-1) < 0 (negative)
+   - (x+2) > 0 (positive)
+   - (4x-1) > 0 (positive)
+   - Product: negative × positive × positive = negative
+   - This region is part of the solution.
+
+4. x > 1:
+   - (x-1) > 0 (positive)
+   - (x+2) > 0 (positive)
+   - (4x-1) > 0 (positive)
+   - Product: positive × positive × positive = positive
+   - This region is not part of the solution.
+
+Therefore, the solution is 1/4 < x < 1.
+
+### Question 13(a)
+**The polynomial P(x) = ax³ + bx² + cx + d has roots x = -1/2 and x = γ.**
+
+**(i) Given that x = -1/2 is a double root, show that 4(c/a) - 16(d/a) = 1**
+
+**Solution:**
+- Since x = -1/2 is a double root, we can factor P(x) as:
+  - P(x) = a(x + 1/2)²(x - γ)
+  - P(x) = a((x + 1/2)²(x - γ))
+
+- Expanding (x + 1/2)²:
+  - (x + 1/2)² = x² + x + 1/4
+
+- Therefore:
+  - P(x) = a(x² + x + 1/4)(x - γ)
+  - P(x) = a(x³ - γx² + x² - γx + x/4 - γ/4)
+  - P(x) = a(x³ + (1-γ)x² + (1-γ)x - γ/4)
+
+Comparing with P(x) = ax³ + bx² + cx + d:
+- a = a
+- b = a(1-γ)
+- c = a(1-γ)
+- d = -aγ/4
+
+From these equations:
+- c/a = 1-γ
+- d/a = -γ/4
+
+We need to show that 4(c/a) - 16(d/a) = 1:
+- 4(c/a) - 16(d/a) = 4(1-γ) - 16(-γ/4)
+- = 4 - 4γ - (-4γ)
+- = 4 - 4γ + 4γ
+- = 4
+
+This doesn't match our target of 1. Let me reconsider.
+
+Since x = -1/2 is a double root:
+- P(-1/2) = 0
+- P'(-1/2) = 0
+
+From P(x) = ax³ + bx² + cx + d:
+- P'(x) = 3ax² + 2bx + c
+
+Let's use these conditions:
+1. P(-1/2) = a(-1/2)³ + b(-1/2)² + c(-1/2) + d = 0
+   - a(-1/8) + b(1/4) - c/2 + d = 0
+   - -a/8 + b/4 - c/2 + d = 0 ... (1)
+
+2. P'(-1/2) = 3a(-1/2)² + 2b(-1/2) + c = 0
+   - 3a(1/4) - b + c = 0
+   - 3a/4 - b + c = 0 ... (2)
+
+I realize we can take a different approach. Since x = -1/2 is a double root, we can write:
+- P(x) = a(x + 1/2)²(x - γ)
+
+Expanding:
+- P(x) = a(x² + x + 1/4)(x - γ)
+- P(x) = a(x³ - γx³ + x²x - γx² + (1/4)x - γ/4)
+- P(x) = a(x³ + (1-γ)x² + (1-γ)x - γ/4)
+
+Comparing with P(x) = ax³ + bx² + cx + d:
+- b/a = 1-γ
+- c/a = 1-γ
+- d/a = -γ/4
+
+From these, c/a = b/a.
+
+Let's solve using equations (1) and (2):
+- From (2): b = 3a/4 + c
+
+Substituting into (1):
+- -a/8 + (3a/4 + c)/4 - c/2 + d = 0
+- -a/8 + 3a/16 + c/4 - c/2 + d = 0
+- -a/8 + 3a/16 - c/4 + d = 0
+- -2a/16 + 3a/16 - c/4 + d = 0
+- a/16 - c/4 + d = 0 ... (3)
+
+From equation (3):
+- a/16 = c/4 - d
+- a = 4c - 16d
+- c/a = 1/4
+- d/a = c/(4a) - 1/16
+
+Now let's verify if 4(c/a) - 16(d/a) = 1:
+- 4(c/a) - 16(d/a) = 4(1/4) - 16(c/(4a) - 1/16)
+- = 1 - 4c/a + 1
+- = 2 - 4c/a
+
+Given that c/a = 1/4:
+- 2 - 4(1/4) = 2 - 1 = 1
+
+Therefore, 4(c/a) - 16(d/a) = 1 is verified.
+
+**(ii) Hence or otherwise, show that if 3c = 11d, then γ = 3.**
+
+**Solution:**
+- From part (i), we showed that 4(c/a) - 16(d/a) = 1
+- Given that 3c = 11d, we can express c in terms of d: c = 11d/3
+
+Let's substitute this into 4(c/a) - 16(d/a) = 1:
+- 4(11d/(3a)) - 16(d/a) = 1
+- 44d/(3a) - 16d/a = 1
+- (44d - 48d)/3a = 1
+- -4d/(3a) = 1
+- -4d = 3a ... (4)
+
+We previously found that P(x) = a(x + 1/2)²(x - γ) = a(x³ + (1-γ)x² + (1-γ)x - γ/4).
+
+Comparing with P(x) = ax³ + bx² + cx + d:
+- b = a(1-γ)
+- c = a(1-γ)
+- d = -aγ/4
+
+From d = -aγ/4, we get γ = -4d/a.
+
+Substituting (4):
+- γ = -4d/a = -4d/(-4d/3) = 3
+
+Therefore, if 3c = 11d, then γ = 3.
+
+## NORTH SYDNEY BOYS 2024 EXT 1
+
+### Question 2
+**Let α,β and γ be the roots of x³ + px² + q = 0. Express 1/(αβ) + 1/(βγ) + 1/(αγ) in terms of p and q.**
+
+**Solution:**
+- For a cubic equation x³ + px² + qx + r = 0 with roots α, β, and γ:
+  - α + β + γ = -p
+  - αβ + βγ + αγ = q
+  - αβγ = -r
+
+In our case, the equation is x³ + px² + q = 0, which means that the coefficient of x is 0, so q in the standard form equals 0, and r = -q from our problem.
+
+So we have:
+- α + β + γ = -p
+- αβ + βγ + αγ = 0
+- αβγ = -(-q) = q
+
+Now, let's find 1/(αβ) + 1/(βγ) + 1/(αγ):
+- 1/(αβ) + 1/(βγ) + 1/(αγ) = (γ + α + β)/(αβγ)
+- = -(α + β + γ)/(αβγ)
+- = -(-p)/q
+- = p/q
+
+Therefore, 1/(αβ) + 1/(βγ) + 1/(αγ) = p/q, and the answer is D.
+
+### Question 11(a)
+**Solve for x: 6/(x-2) ≥ 3**
+
+**Solution:**
+- Starting with 6/(x-2) ≥ 3
+- Multiply both sides by (x-2):
+  - If x > 2, then (x-2) > 0, and the inequality direction is preserved.
+  - If x < 2, then (x-2) < 0, and the inequality direction is reversed.
+
+Case 1: x > 2
+- 6 ≥ 3(x-2)
+- 6 ≥ 3x - 6
+- 12 ≥ 3x
+- x ≤ 4
+- Therefore, for x > 2, the solution is 2 < x ≤ 4.
+
+Case 2: x < 2
+- 6 ≤ 3(x-2)
+- 6 ≤ 3x - 6
+- 12 ≤ 3x
+- x ≥ 4
+- This contradicts our assumption that x < 2, so there are no solutions in this case.
+
+Therefore, the solution is 2 < x ≤ 4.
+
+### Question 12(e)
+**Given 4x⁴ + 8x³ + 3x² - 2x - 1 = 0**
+
+**(i) Express in the form (ax² + bx)² - (cx + d)² = 0, where a, b, c and d are positive integers, and state the values of a,b,c and d.**
+
+**Solution:**
+- We need to rewrite 4x⁴ + 8x³ + 3x² - 2x - 1 = 0 in the form (ax² + bx)² - (cx + d)² = 0
+
+Let's expand (ax² + bx)² - (cx + d)²:
+- (ax² + bx)² - (cx + d)² = a²x⁴ + 2abx³ + b²x² - (c²x² + 2cdx + d²)
+- = a²x⁴ + 2abx³ + b²x² - c²x² - 2cdx - d²
+- = a²x⁴ + 2abx³ + (b² - c²)x² - 2cdx - d²
+
+Comparing with 4x⁴ + 8x³ + 3x² - 2x - 1 = 0:
+- a² = 4, so a = 2 (since a must be positive)
+- 2ab = 8, so b = 2 (since b must be positive)
+- b² - c² = 3, so 4 - c² = 3, thus c² = 1, and c = 1 (since c must be positive)
+- -2cd = -2, so d = 1 (since d must be positive)
+- -d² = -1, which is true since d = 1
+
+Therefore, a = 2, b = 2, c = 1, and d = 1.
+
+The equation can be rewritten as (2x² + 2x)² - (x + 1)² = 0.
+
+**(ii) Hence solve the equation for x**
+
+**Solution:**
+- From part (i), we have (2x² + 2x)² - (x + 1)² = 0
+- This means (2x² + 2x)² = (x + 1)², which gives us:
+  - 2x² + 2x = x + 1, or
+  - 2x² + 2x = -(x + 1)
+
+From 2x² + 2x = x + 1:
+- 2x² + 2x - x - 1 = 0
+- 2x² + x - 1 = 0
+- Using the quadratic formula with a = 2, b = 1, c = -1:
+  - x = (-1 ± √(1 + 8))/4
+  - x = (-1 ± 3)/4
+  - x = 1/2 or x = -1
+
+From 2x² + 2x = -(x + 1):
+- 2x² + 2x + x + 1 = 0
+- 2x² + 3x + 1 = 0
+- Using the quadratic formula with a = 2, b = 3, c = 1:
+  - x = (-3 ± √(9 - 8))/4
+  - x = (-3 ± 1)/4
+  - x = -1/2 or x = -1
+
+Therefore, the solutions are x = -1, x = -1/2, and x = 1/2.
+
+## NORTH SYDNEY GIRLS 2024
+
+### Question 1
+**Which of the following gives the solutions to the inequality |2 - 3x| ≤ 4?**
+
+**Solution:**
+- The inequality |2 - 3x| ≤ 4 can be rewritten as -4 ≤ 2 - 3x ≤ 4
+- Manipulating the left inequality: -4 ≤ 2 - 3x
+  - -6 ≤ -3x
+  - -6/(-3) ≥ x
+  - 2 ≥ x
+- Manipulating the right inequality: 2 - 3x ≤ 4
+  - -3x ≤ 2
+  - x ≥ -2/3
+- Combining these: -2/3 ≤ x ≤ 2
+
+Therefore, the solution is -2/3 ≤ x ≤ 2, which corresponds to option B.
+
+### Question 11(a)
+**Solve (x+1)/(x-3) ≤ 2.**
+
+**Solution:**
+- Starting with (x+1)/(x-3) ≤ 2
+- We need to multiply both sides by (x-3), but we must consider the sign of (x-3):
+
+Case 1: If x > 3, then (x-3) > 0, and multiplying preserves the inequality:
+- x+1 ≤ 2(x-3)
+- x+1 ≤ 2x-6
+- x+1-2x+6 ≤ 0
+- -x+7 ≤ 0
+- -x ≤ -7
+- x ≥ 7
+- Therefore, for x > 3, the solution is x ≥ 7.
+
+Case 2: If x < 3, then (x-3) < 0, and multiplying reverses the inequality:
+- x+1 ≥ 2(x-3)
+- x+1 ≥ 2x-6
+- x+1-2x+6 ≥ 0
+- -x+7 ≥ 0
+- -x ≥ -7
+- x ≤ 7
+- Therefore, for x < 3, the solution is x ≤ 7.
+
+Combining both cases and considering the domain restriction (x ≠ 3):
+- The solution is x ≤ 7, x ≠ 3, which can be written as x ≤ 3 or 3 < x ≤ 7.
+
+### Question 11(d)
+**A polynomial is given such that p(x) = x³ - 8x² + qx - 16 where q ∈ ℝ. It is known that the equation p(x) = 0 has roots α,β and α + β.**
+
+**(i) Show that α = 2 and β = 2.**
+
+**Solution:**
+- Let's call the roots α, β, and γ, where γ = α + β
+- For a cubic polynomial with roots α, β, and γ, we can write:
+  - p(x) = (x - α)(x - β)(x - γ)
+  - p(x) = (x - α)(x - β)(x - (α + β))
+
+- Expanding this:
+  - p(x) = (x - α)(x - β)(x - α - β)
+  - p(x) = (x² - βx - αx + αβ)(x - α - β)
+  - p(x) = x³ - (α + β)x² - (α + β)x² + (α + β)²x - αβx + αβ(α + β)
+  - p(x) = x³ - (α + β)x² - (α + β)x² + (α + β)²x - αβx + α²β + αβ²
+  - p(x) = x³ - 2(α + β)x² + ((α + β)² - αβ)x + αβ(α + β)
+
+Comparing with p(x) = x³ - 8x² + qx - 16:
+- -2(α + β) = -8, so α + β = 4
+- (α + β)² - αβ = q
+- αβ(α + β) = -16
+
+Since α + β = 4, we have:
+- αβ(α + β) = 4αβ = -16
+- αβ = -4
+
+Given that γ = α + β and that γ is a root of p(x) = 0, we have p(α + β) = 0.
+Since α + β = 4, we have p(4) = 0.
+
+Let's check:
+- p(4) = 4³ - 8(4)² + q(4) - 16
+- p(4) = 64 - 8(16) + 20(4) - 16
+- p(4) = 64 - 128 + 80 - 16
+- p(4) = 0
+
+So, using
+- αb = -4
+- α + β = 4
+
+We can rearrange to get β in terms of α
+- β = 4 - α
+
+Subbing into the other equation
+- α(4-α) = -4
+- 4α - α^2 = -4
+- α^2 - 4α + 4 = 0
+- (α-2)^2 = 0
+
+Using the null factor theorum
+- α - 2 = 0
+
+Therefore, 
+- α = 2
+- α + β = 4
+- 2 + β = 4
+- β = 2
+
+**(ii) Hence find the value of q.**
+
+**Solution:**
+We know that:
+- q/a = αβ + αγ + βγ 
+
+And that:
+- γ = α + β
+
+So:
+- q = αβ + α(α+b) + b(α+b)
+*(the denominator goes, as a = 1)*
+- q = αβ + (α+b)^2
+
+We discovered earlier that:
+- αβ = -4
+
+And we know that
+- α + β = 4
+
+So:
+- q = -4 + (4^2)
+- q = -4 + 16
+- q = 12

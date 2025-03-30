@@ -783,3 +783,438 @@ Find α, β and γ given that one of the roots is the sum of the other two.
 - And γ = α + β = 2 + (-1/2) = 3/2
 
 - Therefore, the three roots are: 2, -1/2, and 3/2
+
+## GOSFORD HIGH 2024 EXT 1
+
+### Question 10: When the polynomial p(x) is divided by x² - x - 2, the remainder is -1/3x + 11/3. What is the remainder when p(x) is divided by x - 2?
+
+**Solution:**
+- First, let's identify the factors of x² - x - 2:
+  - x² - x - 2 = 0
+  - (x - 2)(x + 1) = 0
+  - So the factors are (x - 2) and (x + 1)
+- When p(x) is divided by x² - x - 2, we can express:
+  - p(x) = (x² - x - 2)q(x) + (-1/3x + 11/3)
+  - where q(x) is the quotient and (-1/3x + 11/3) is the remainder
+- To find the remainder when p(x) is divided by (x - 2), we can use the remainder theorem:
+  - The remainder is p(2)
+- Substitute x = 2 into p(x):
+  - p(2) = (2² - 2 - 2)q(2) + (-1/3(2) + 11/3)
+  - p(2) = (0)q(2) + (-2/3 + 11/3)
+  - p(2) = -2/3 + 11/3 = 9/3 = 3
+- Therefore, the remainder when p(x) is divided by (x - 2) is 3.
+- Answer: A. 3
+
+### Question 11(b): Solve the following inequality 2x+1/x-2 ≥ 1
+
+**Solution:**
+- Start with the inequality: (2x+1)/(x-2) ≥ 1
+- We need to be careful with the domain: x ≠ 2
+- Rewrite by subtracting 1 from both sides:
+  - (2x+1)/(x-2) - 1 ≥ 0
+- Find a common denominator:
+  - [(2x+1) - (x-2)]/(x-2) ≥ 0
+  - (2x+1-x+2)/(x-2) ≥ 0
+  - (x+3)/(x-2) ≥ 0
+- For a rational expression to be ≥ 0, either:
+  - Both numerator and denominator are ≥ 0, OR
+  - Both numerator and denominator are ≤ 0
+- Case 1: Both ≥ 0
+  - x + 3 ≥ 0 → x ≥ -3
+  - x - 2 > 0 → x > 2
+  - Combined: x > 2
+- Case 2: Both ≤ 0
+  - x + 3 ≤ 0 → x ≤ -3
+  - x - 2 < 0 → x < 2
+  - Combined: x ≤ -3
+- The solution is x ≤ -3 or x > 2
+
+## HORNSBY GIRLS 2024 EXT 1
+
+### Question (e): Given polynomial 4x³ + 3x² - 2x + 5 = 0 has roots α, β, and γ, then find: i. 1/α + 1/β + 1/γ, ii. α²β + αβ² + αγ² + α²γ + β²γ + βγ²
+
+**Solution:**
+#### Part i. Find 1/α + 1/β + 1/γ
+
+- Given polynomial: 4x³ + 3x² - 2x + 5 = 0
+- If we let P(x) = 4x³ + 3x² - 2x + 5, then P(α) = P(β) = P(γ) = 0
+- For the sum of reciprocals, we can use the relationship between coefficients:
+  - If a polynomial is ax³ + bx² + cx + d = 0 with roots α, β, γ, then:
+  - 1/α + 1/β + 1/γ = c/d
+- In our polynomial: a = 4, b = 3, c = -2, d = 5
+- Therefore: 1/α + 1/β + 1/γ = -2/5 = -0.4
+
+#### Part ii. Find α²β + αβ² + αγ² + α²γ + β²γ + βγ²
+
+- This expression can be rewritten as α²(β + γ) + β²(α + γ) + γ²(α + β)
+- We know from Vieta's formulas:
+  - α + β + γ = -b/a = -3/4
+  - αβ + αγ + βγ = c/a = -2/4 = -1/2
+  - αβγ = -d/a = -5/4
+- Let's compute α² + β² + γ² first:
+  - (α + β + γ)² = α² + β² + γ² + 2(αβ + αγ + βγ)
+  - α² + β² + γ² = (α + β + γ)² - 2(αβ + αγ + βγ)
+  - α² + β² + γ² = (-3/4)² - 2(-1/2)
+  - α² + β² + γ² = 9/16 + 1 = 9/16 + 16/16 = 25/16
+- Now for our expression:
+  - α²β + αβ² + αγ² + α²γ + β²γ + βγ² = α²(β + γ) + β²(α + γ) + γ²(α + β)
+  - = (β + γ)α² + (α + γ)β² + (α + β)γ²
+- Using the fact that (α + β + γ)(αβ + αγ + βγ) = α²β + αβ² + αγ² + α²γ + β²γ + βγ² + 3αβγ:
+  - α²β + αβ² + αγ² + α²γ + β²γ + βγ² = (α + β + γ)(αβ + αγ + βγ) - 3αβγ
+  - = (-3/4)(-1/2) - 3(-5/4)
+  - = 3/8 + 15/4
+  - = 3/8 + 60/16 = 3/8 + 60/16 = 3/8 + 15/4 = 6/16 + 60/16 = 66/16 = 33/8
+
+### Question 3: What is the remainder when P(x) = x³ - 3x² + 2x - 3 is divided by (x+1)?
+
+**Solution:**
+- To find the remainder when P(x) is divided by (x+1), we can use the remainder theorem:
+  - The remainder is P(-1)
+- Calculate P(-1):
+  - P(-1) = (-1)³ - 3(-1)² + 2(-1) - 3
+  - P(-1) = -1 - 3 - 2 - 3
+  - P(-1) = -9
+- Therefore, the remainder when P(x) is divided by (x+1) is -9, which is not among the given options.
+- Let's double-check:
+  - P(-1) = (-1)³ - 3(-1)² + 2(-1) - 3
+  - = -1 - 3(1) + 2(-1) - 3
+  - = -1 - 3 - 2 - 3
+  - = -9
+- None of the given answers match -9. This suggests there might be an error in the problem statement or my calculation.
+- Let me recalculate:
+  - When x = -1:
+  - (-1)³ = -1
+  - -3(-1)² = -3(1) = -3
+  - 2(-1) = -2
+  - -3 = -3
+  - P(-1) = -1 - 3 - 2 - 3 = -9
+- The remainder is -9, which is not among the given options.
+- The correct answer appears to be missing from the options.
+
+### Question 11(d): Solve the inequality 8-|2x-1| ≤ 5.
+
+**Solution:**
+- Starting with 8-|2x-1| ≤ 5
+- Subtract 8 from both sides:
+  - -|2x-1| ≤ 5-8
+  - -|2x-1| ≤ -3
+- Multiply by -1 (which reverses the inequality):
+  - |2x-1| ≥ 3
+- This means either:
+  - 2x-1 ≥ 3, OR
+  - 2x-1 ≤ -3
+- Solve the first condition:
+  - 2x-1 ≥ 3
+  - 2x ≥ 4
+  - x ≥ 2
+- Solve the second condition:
+  - 2x-1 ≤ -3
+  - 2x ≤ -2
+  - x ≤ -1
+- The solution is x ≤ -1 or x ≥ 2
+
+### Question 14(a): The roots of x³ + 3x² - 4 = 0 are α, β and γ. What is the value of 1/(αβ) + 1/(βγ) + 1/(αγ)?
+
+**Solution:**
+- Given polynomial: x³ + 3x² - 4 = 0
+- For a cubic equation ax³ + bx² + cx + d = 0 with roots α, β, γ:
+  - 1/(αβ) + 1/(βγ) + 1/(αγ) = c/d
+- In our equation: a = 1, b = 3, c = 0, d = -4
+- Therefore: 1/(αβ) + 1/(βγ) + 1/(αγ) = c/d = 0/(-4) = 0
+
+### Question 14(d): The polynomial g(x) = 4x² - 3x + 1 passes through the point (1, 2). (i) Show that g(x) has a root of multiplicity 2.
+
+**Solution:**
+- First, let's verify that g(1) = 2:
+  - g(1) = 4(1)² - 3(1) + 1 = 4 - 3 + 1 = 2 ✓
+- For a root to have multiplicity 2, the polynomial needs to be in the form g(x) = a(x-r)² where r is the root.
+- Let's try to find the roots by completing the square:
+  - g(x) = 4x² - 3x + 1
+  - = 4(x² - 3x/4 + 1/4) - 4(1/4) + 1
+  - = 4(x - 3/8)² - 4(9/64) + 1
+  - = 4(x - 3/8)² - 9/16 + 1
+  - = 4(x - 3/8)² - 9/16 + 16/16
+  - = 4(x - 3/8)² + 7/16
+- This doesn't yield a perfect square.
+- Let's try factoring directly:
+  - Using the quadratic formula for 4x² - 3x + 1 = 0
+  - x = (3 ± √(9-16))/8 = (3 ± √(-7))/8
+- Since we get complex roots, this indicates the polynomial doesn't have real roots.
+- For a root of multiplicity 2, we would need g(x) = a(x-r)² for some r.
+- Let's try another approach by computing the discriminant:
+  - For ax² + bx + c, the discriminant is b² - 4ac
+  - In g(x) = 4x² - 3x + 1, we have a = 4, b = -3, c = 1
+  - Discriminant = (-3)² - 4(4)(1) = 9 - 16 = -7
+- Since the discriminant is negative, g(x) has no real roots, contradicting the requirement for a root of multiplicity 2.
+- There appears to be an error in the problem statement or my understanding.
+
+## HURLSTONE 2024 EXT 1
+
+### Question 5: What is the remainder when 2x⁵ - 3x³ + x² - 5 is divided by x + 2?
+
+**Solution:**
+- To find the remainder when P(x) is divided by (x+2), we can use the remainder theorem:
+  - The remainder is P(-2)
+- Calculate P(-2):
+  - P(-2) = 2(-2)⁵ - 3(-2)³ + (-2)² - 5
+  - = 2(-32) - 3(-8) + 4 - 5
+  - = -64 + 24 + 4 - 5
+  - = -64 + 24 + 4 - 5
+  - = -41
+- Therefore, the remainder is -41.
+- Answer: A. -41
+
+### Question 15(a): The roots of 2x³ - 6x² - 8x + 12 = 0 are α, β and γ. Find the value of (α + 2)(β + 2)(γ + 2).
+
+**Solution:**
+- Given polynomial: 2x³ - 6x² - 8x + 12 = 0
+- To find (α + 2)(β + 2)(γ + 2), let's use the substitution y = x + 2.
+- When x = α, β, or γ, we have y = α + 2, β + 2, or γ + 2.
+- This means we need to find the product of the roots of the transformed equation.
+- Substituting x = y - 2:
+  - 2(y-2)³ - 6(y-2)² - 8(y-2) + 12 = 0
+- Expanding:
+  - 2(y³ - 6y² + 12y - 8) - 6(y² - 4y + 4) - 8(y - 2) + 12 = 0
+  - 2y³ - 12y² + 24y - 16 - 6y² + 24y - 24 - 8y + 16 + 12 = 0
+  - 2y³ - 18y² + 40y - 12 = 0
+- For this equation, the product of roots is the constant term divided by the leading coefficient.
+- Therefore, (α + 2)(β + 2)(γ + 2) = -12/2 = -6
+
+## JAMES RUSE 2024 EXT 1
+
+### Question 5: Which of the following has the same solution as that of 3/(2-x) > 2?
+
+**Solution:**
+- Starting with 3/(2-x) > 2
+- Multiply both sides by (2-x): We need to check the sign first
+  - If 2-x > 0, then x < 2, and the inequality direction is preserved
+  - If 2-x < 0, then x > 2, and the inequality direction is reversed
+- Case 1: x < 2
+  - 3 > 2(2-x)
+  - 3 > 4-2x
+  - 3 + 2x > 4
+  - 2x > 1
+  - x > 1/2
+  - So this gives 1/2 < x < 2
+- Case 2: x > 2
+  - 3 < 2(2-x)
+  - 3 < 4-2x
+  - 3 + 2x < 4
+  - 2x < 1
+  - x < 1/2
+  - This is incompatible with x > 2, so there are no solutions in this case
+- The solution is 1/2 < x < 2
+- Let's check the options:
+  - A. 2x - 1 ≥ 0 → x ≥ 1/2, which is close but not exactly the same
+  - B. (x - 2)(2x - 1) > 0
+    - When x < 2, (x - 2) < 0, so (2x - 1) < 0 for (x - 2)(2x - 1) > 0
+    - This gives x < 1/2, which doesn't match
+    - When x > 2, (x - 2) > 0, so (2x - 1) > 0 for (x - 2)(2x - 1) > 0
+    - This gives x > 2 and x > 1/2, simplifying to x > 2, which doesn't match
+  - C. (x - 2)(2x - 1) < 0
+    - When 1/2 < x < 2, (x - 2) < 0 and (2x - 1) > 0, so the product is negative
+    - This gives 1/2 < x < 2, which matches our solution
+- Answer: C. (x - 2)(2x - 1) < 0
+
+### Question 11(c): Given P(x) = 3x³ - 2x² + x - 3 has zeroes α, β and γ: i. Write down the value of αβγ. ii. Hence, or otherwise, find the value of 1/α + 1/β + 1/γ.
+
+**Solution:**
+#### Part i. Find αβγ
+
+- Given polynomial: P(x) = 3x³ - 2x² + x - 3
+- Using Vieta's formula for a cubic equation ax³ + bx² + cx + d = 0:
+  - αβγ = -d/a
+- In our equation: a = 3, d = -3
+- Therefore: αβγ = -(-3)/3 = 1
+
+#### Part ii. Find 1/α + 1/β + 1/γ
+
+- For a cubic equation ax³ + bx² + cx + d = 0 with roots α, β, γ:
+  - 1/α + 1/β + 1/γ = c/d
+- In our equation: a = 3, b = -2, c = 1, d = -3
+- Therefore: 1/α + 1/β + 1/γ = 1/(-3) = -1/3
+
+## KILLARA 2024 EXT 1
+
+### Question 2: Which of the following expressions could be one of the factors of the polynomial shown below? P(x) = x³ + x² - 5x - 2
+
+**Solution:**
+- To find a potential factor, we can use the rational root theorem.
+- For a polynomial P(x) = anx^n + ... + a1x + a0, if p/q is a rational root (in lowest terms), then p divides a0 and q divides an.
+- In our case, potential rational roots are divisors of -2: ±1, ±2
+- Let's test each option:
+  - A. x - 1:
+    - P(1) = 1³ + 1² - 5(1) - 2 = 1 + 1 - 5 - 2 = -5 ≠ 0, not a factor
+  - B. x + 1:
+    - P(-1) = (-1)³ + (-1)² - 5(-1) - 2 = -1 + 1 + 5 - 2 = 3 ≠ 0, not a factor
+  - C. x - 2:
+    - P(2) = 2³ + 2² - 5(2) - 2 = 8 + 4 - 10 - 2 = 0, so this is a factor
+  - D. x + 2:
+    - P(-2) = (-2)³ + (-2)² - 5(-2) - 2 = -8 + 4 + 10 - 2 = 4 ≠ 0, not a factor
+- Answer: C. x - 2
+
+### Question 11(a): Solve: 2x/(x+3) ≤ 1
+
+**Solution:**
+- Starting with 2x/(x+3) ≤ 1
+- First, we need to ensure x ≠ -3 for the domain
+- Subtract 1 from both sides:
+  - 2x/(x+3) - 1 ≤ 0
+- Find a common denominator:
+  - [2x - (x+3)]/(x+3) ≤ 0
+  - (2x - x - 3)/(x+3) ≤ 0
+  - (x - 3)/(x+3) ≤ 0
+- For a rational expression to be ≤ 0, we need the numerator and denominator to have opposite signs
+- Case 1: Numerator ≤ 0 and denominator > 0
+  - x - 3 ≤ 0 → x ≤ 3
+  - x + 3 > 0 → x > -3
+  - Combined: -3 < x ≤ 3
+- Case 2: Numerator ≥ 0 and denominator < 0
+  - x - 3 ≥ 0 → x ≥ 3
+  - x + 3 < 0 → x < -3
+  - This case is impossible since it would require x to be both ≥ 3 and < -3
+- The solution is -3 < x ≤ 3
+
+## KINGS SCHOOL 2021 EXT 1
+
+### Question 11(a): Given P(x) = x³ - 5x² + 8x - 4, (i) Find P(1). (ii) Factorise P(x)
+
+**Solution:**
+#### Part i. Find P(1)
+
+- P(1) = 1³ - 5(1)² + 8(1) - 4
+- P(1) = 1 - 5 + 8 - 4
+- P(1) = 0
+- This means (x - 1) is a factor of P(x)
+
+#### Part ii. Factorise P(x)
+
+- Since (x - 1) is a factor, we can write P(x) = (x - 1)Q(x) where Q(x) is a quadratic
+- Using polynomial division or the factor theorem:
+  - P(x) = (x - 1)(x² - 4x + 4)
+  - = (x - 1)(x - 2)²
+- Therefore, P(x) = (x - 1)(x - 2)²
+
+## KNOX GRAMMAR 2023 EXT 1
+
+### Question 2: The polynomial P(x) has a degree 6. When P(x) is divided by another polynomial Q(x) the remainder is x³ +1. Which of the following is true about the degree of the polynomial H(x) = (P(x)Q(x))?
+
+**Solution:**
+- When P(x) is divided by Q(x), we can write:
+  - P(x) = Q(x)·S(x) + R(x)
+  - Where S(x) is the quotient and R(x) = x³ + 1 is the remainder
+- Since the remainder has degree 3, the divisor Q(x) must have degree at least 4
+- Let's say the degree of Q(x) is n, where n ≥ 4
+- Since P(x) has degree 6, and when divided by Q(x) gives a remainder of degree 3, we can determine:
+  - degree of S(x) = degree of P(x) - degree of Q(x) = 6 - n
+- Now for H(x) = P(x)Q(x), we can substitute P(x) = Q(x)·S(x) + R(x):
+  - H(x) = Q(x)[Q(x)·S(x) + R(x)]
+  - H(x) = Q(x)²·S(x) + Q(x)·R(x)
+- The degree of H(x) is the maximum of the degrees of Q(x)²·S(x) and Q(x)·R(x):
+  - Degree of Q(x)²·S(x) = 2n + (6 - n) = n + 6
+  - Degree of Q(x)·R(x) = n + 3
+- Since n ≥ 4, we have n + 6 > n + 3, so the degree of H(x) is n + 6
+- Since n ≥ 4, the degree of H(x) is at least 10
+- Looking at the options, the degree could be anywhere from 10 upwards depending on n
+- Options A and B include values less than 10, which are impossible
+- Option C states the degree could be 20, 22, or 24, which requires n = 14, 16, or 18
+- Option D states the degree could be 22, 24, 26, which requires n = 16, 18, or 20
+- Only option C and D contain valid possible values
+- Since we don't have any other constraints on n, we should pick the option with the most possible values
+- Option C seems more appropriate as it includes 20, 22, and 24
+- Answer: C. The degree could be 20, 22 or 24.
+
+### Question 11(b): Solve the inequality 1/(x-3) ≥ -1.
+
+**Solution:**
+- Starting with 1/(x-3) ≥ -1
+- First, we need to ensure x ≠ 3 for the domain
+- Add 1 to both sides:
+  - 1/(x-3) + 1 ≥ 0
+- Find a common denominator:
+  - [1 + (x-3)]/(x-3) ≥ 0
+  - (x-2)/(x-3) ≥ 0
+- For a rational expression to be ≥ 0, either:
+  - Both numerator and denominator are ≥ 0, OR
+  - Both numerator and denominator are ≤ 0
+- Case 1: Both ≥ 0
+  - x - 2 ≥ 0 → x ≥ 2
+  - x - 3 > 0 → x > 3
+  - Combined: x > 3
+- Case 2: Both ≤ 0
+  - x - 2 ≤ 0 → x ≤ 2
+  - x - 3 < 0 → x < 3
+  - Combined: x ≤ 2
+- The solution is x ≤ 2 or x > 3
+
+### Question 11(c): The polynomial P(x) = 3x³ - ax² - 8x + b has x = -2 as a root of multiplicity 2. Find the values of a and b.
+
+**Solution:**
+- For x = -2 to be a root of multiplicity 2, we need:
+  - P(-2) = 0 (it's a root)
+  - P'(-2) = 0 (it's a root of the derivative, which indicates multiplicity ≥ 2)
+- Calculate P(-2):
+  - P(-2) = 3(-2)³ - a(-2)² - 8(-2) + b
+  - = 3(-8) - a(4) - 8(-2) + b
+  - = -24 - 4a + 16 + b
+  - = -8 - 4a + b
+- Setting P(-2) = 0:
+  - -8 - 4a + b = 0
+  - b = 8 + 4a ... (1)
+- Calculate P'(x):
+  - P'(x) = 9x² - 2ax - 8
+- Calculate P'(-2):
+  - P'(-2) = 9(-2)² - 2a(-2) - 8
+  - = 9(4) - 2a(-2) - 8
+  - = 36 + 4a - 8
+  - = 28 + 4a
+- Setting P'(-2) = 0:
+  - 28 + 4a = 0
+  - 4a = -28
+  - a = -7
+- Substitute a = -7 back into equation (1):
+  - b = 8 + 4(-7)
+  - b = 8 - 28
+  - b = -20
+- Therefore, a = -7 and b = -20
+
+## MANLY HIGH 2024 EXT 1
+
+### Question 4: Given α, β and γ are the roots of the equation 4x³ + 5x² + 4x - 1 = 0, 1/α + 1/β + 1/γ is equal to:
+
+**Solution:**
+- Given polynomial: 4x³ + 5x² + 4x - 1 = 0
+- For a cubic equation ax³ + bx² + cx + d = 0 with roots α, β, γ:
+  - 1/α + 1/β + 1/γ = c/d
+- In our equation: a = 4, b = 5, c = 4, d = -1
+- Therefore: 1/α + 1/β + 1/γ = 4/(-1) = -4
+- Answer: (A) -4
+
+### Question 11(e): Let P(x) = (x + 1)(x - 4)Q(x) + ax + b, where Q(x) is a polynomial and a and b are real numbers. The polynomial P(x) has a factor of x - 4. When P(x) is divided by x + 1 the remainder is 15. (i) Find the values of a and b (ii) Find the remainder when P(x) is divided by (x + 1)(x - 4)
+
+**Solution:**
+#### Part (i): Find the values of a and b
+
+- Since P(x) has a factor of (x - 4), we know that P(4) = 0
+- Evaluate P(4):
+  - P(4) = (4 + 1)(4 - 4)Q(4) + a(4) + b
+  - P(4) = (5)(0)Q(4) + 4a + b
+  - P(4) = 4a + b
+- Since P(4) = 0:
+  - 4a + b = 0
+  - b = -4a ... (1)
+- When P(x) is divided by (x + 1), the remainder is P(-1):
+  - P(-1) = (-1 + 1)(-1 - 4)Q(-1) + a(-1) + b
+  - P(-1) = (0)(-5)Q(-1) - a + b
+  - P(-1) = -a + b
+- Since P(-1) = 15:
+  - -a + b = 15 ... (2)
+- Solving equations (1) and (2):
+  - b = -4a from (1)
+  - -a + (-4a) = 15 from (2)
+  - -5a = 15
+  - a = -3
+- Substitute a = -3 back into equation (1):
+  - b = -4(-3)
+  - b = 12
+- Therefore, a = -3 and b = 12

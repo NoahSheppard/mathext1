@@ -2154,3 +2154,30 @@ Therefore, P(x) ≥ 0 when x ≤ -3 or x ≥ 2.
   - x > 0,
   - x < 1
 - Boom!
+
+## SYDNEY GIRLS HIGH 2024 EXT 1
+### (b) Solve 3/(x-2) ≤ 1
+- So, similar to how I explained before, we will need to multiply both sides by (x-2)²
+  - 3(x-2) ≤ (x-2)²
+- Moving everything to LHS
+  - 3(x-2) - (x-2)² ≤ 0
+- Now we do the same thing as before, simplfying
+  - (3 - (x-2))(x-2) ≤ 0
+  - (-x + 1)(x-2) ≤ 0
+- Now, we have -x again, which will make this a negative graph which isn't nice. 
+- Multiplying both sides by -1 (and do NOT forget to flip the sign!!!)
+  - (x-1)(x-2) ≥ 0 
+- So, we know this is going to be a parabola, with x-intercepts 1 and 2. 
+- We also want where x ≥ 0
+- And that will be where:
+  - x ≤ 1
+  - x ≥ 2
+- BUT! Be careful. In the original question, the denominator is (x-2).
+- And we have said where x is greater than **or equal to** 2. 
+- If x is 2, the denominator becomes
+  - (2-2)
+- Which is 0! That would give us a math error (not good)
+- Hence, our answer is now
+  - x ≤ 1
+  - x > 2 (no longer **or equal to**)
+- Boom!

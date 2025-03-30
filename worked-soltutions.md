@@ -4,29 +4,19 @@
 ### Question 1: The polynomial x³ + 2x² - 5x - 6 has zeros -1, -3 and α. What is the value of α?
 
 **Solution:**
-- If a polynomial has zeros at x = -1, x = -3, and x = α, then it can be written as: P(x) = k(x+1)(x+3)(x-α) where k is a constant.
-  - When a polynomial has zeros, we can write it as a product of factors (x-zero).
-- Expanding: P(x) = k(x+1)(x+3)(x-α) = k\[(x+1)(x+3)](x-α) = k\[(x²+4x+3)](x-α)
-  - Multiplying the first two brackets.
-- P(x) = k\[x³+4x²+3x-αx²-4αx-3α] = k\[x³+(4-α)x²+(3-4α)x-3α]
-  - Distributing the third factor and collecting like terms.
+- If the polynomial is x³ + 2x² - 5x - 6 and it has zeros at x = -1 and x = -3, then:
+- P(x) = (x+1)(x+3)(x-α)
+- Expanding: P(x) = (x²+4x+3)(x-α) = x³-αx²+4x²-4αx+3x-3α = x³+(4-α)x²+(3-4α)x-3α
 - Comparing with x³ + 2x² - 5x - 6:
-  - k(4-α) = 2, so k = 2/(4-α)
-  - k(3-4α) = -5
-  - k(-3α) = -6, so k = 2
-  - From k = 2, we get (4-α) = 1, so α = 3
-  - Checking: 2(3-4×3) = 2(3-12) = 2(-9) = -18 ≠ -5, but this is using α = 3
-  - Let's verify using the third equation: 2(-3α) = -6, so α = 1
-  - Now checking: If α = 1, then 2(4-1) = 6 ≠ 2
-- Let's restart by directly using the factor theorem:
-  - If the polynomial is x³ + 2x² - 5x - 6 and it has zeros at x = -1 and x = -3, then:
-  - P(x) = (x+1)(x+3)(x-α)
-  - Expanding: P(x) = (x²+4x+3)(x-α) = x³-αx²+4x²-4αx+3x-3α = x³+(4-α)x²+(3-4α)x-3α
-  - Comparing with x³ + 2x² - 5x - 6:
-    - 4-α = 2, so α = 2
-    - 3-4α = -5, so 3-4(2) = 3-8 = -5 ✓
-    - -3α = -6, so -3(2) = -6 ✓
+  - 4-α = 2, so α = 2
+  - 3-4α = -5, so 3-4(2) = 3-8 = -5 ✓
+  - -3α = -6, so -3(2) = -6 ✓
 - Therefore, α = 2, which corresponds to option B.
+- If that doesn't work for you, or doesn't make sense,
+  - -1 + -3 + α = -b/a
+  - -1 + -3 + α = -2
+  - -4 + α = -2
+  - α = 2
 
 ## HSC 2023 EXTENSION 1
 ### Question (c): Consider the polynomial P(x) = x³ + ax² + bx - 12, where a and b are real numbers. It is given that x + 1 is a factor of P(x) and that, when P(x) is divided by x - 2, the remainder is -18. Find a and b.

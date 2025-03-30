@@ -2181,3 +2181,65 @@ Therefore, P(x) ≥ 0 when x ≤ -3 or x ≥ 2.
   - x ≤ 1
   - x > 2 (no longer **or equal to**)
 - Boom!
+
+## SYDNEY GRAMMAR 2024 EXT 1
+### QUESTION ELEVEN (15 marks)
+
+### (a)(i) Find the values of a and b if x² + 4x - 21 = (x + a)² - b.
+- Solution:
+- Expand the right-hand side:
+  - (x + a)² - b = x² + 2ax + a² - b
+- Equate coefficients with the left-hand side x² + 4x - 21:
+  - x² + 4x - 21 = x² + 2ax + a² - b
+- Comparing coefficients:
+  - For x² terms: 1 = 1 (already equal)
+  - For x terms: 4 = 2a, so a = 2
+  - For constant terms: -21 = a² - b = 2² - b = 4 - b, so b = 4 - (-21) = 4 + 21 = 25
+- Therefore, a = 2 and b = 25.
+
+### (b)(i) Let f(x) = (x² + k)(2x + 3) + 3, where k is a constant. Write down the remainder when f(x) is divided by (2x + 3).
+- Solution:
+- To find the remainder when f(x) is divided by (2x + 3), we can use the remainder theorem.
+  - When a polynomial is divided by (ax + b), the remainder is equal to the value of the polynomial at x = -b/a.
+  - In this case, with divisor (2x + 3), we have a = 2 and b = 3, so x = -3/2.
+- Let's evaluate f(-3/2):
+  - f(-3/2) = ((-3/2)² + k)(2*(-3/2) + 3) + 3
+  - = (9/4 + k)(-3 + 3) + 3
+  - = (9/4 + k) * 0 + 3
+  - = 0 + 3 = 3
+- Therefore, the remainder when f(x) is divided by (2x + 3) is 3.
+
+### (b)(ii) Given that the remainder when f(x) is divided by (x - 2) is 24, prove that k = -1.
+- Solution:
+- Using the remainder theorem, the remainder when f(x) is divided by (x - 2) is f(2).
+- We're told that f(2) = 24.
+- Evaluate f(2):
+  - f(2) = (2² + k)(2 * 2 + 3) + 3
+  - = (4 + k)(4 + 3) + 3
+  - = (4 + k)(7) + 3
+  - = 28 + 7k + 3
+  - = 31 + 7k
+- Since f(2) = 24, we have:
+  - 31 + 7k = 24
+  - 7k = 24 - 31
+  - 7k = -7
+  - k = -1
+- Therefore, k = -1.
+
+### (b)(iii) Hence factorise f(x) completely.
+- Solution:
+- Substitute k = -1 into f(x):
+  - f(x) = (x² - 1)(2x + 3) + 3
+- Expand (x² - 1)(2x + 3):
+  - (x² - 1)(2x + 3) = 2x³ + 3x² - 2x - 3
+- So f(x) simplifies to:
+  - f(x) = 2x³ + 3x² - 2x - 3 + 3
+  - f(x) = 2x³ + 3x² - 2x
+- Factor out any common factors from the simplified f(x):
+  - f(x) = x(2x² + 3x - 2)
+- Factor the quadratic 2x² + 3x - 2:
+  - Find two numbers whose product is -4 (from 2 * -2) and whose sum is 3.
+  - These numbers are 4 and -1.
+  - So 2x² + 3x - 2 = 2x² + 4x - x - 2 = 2x(x + 2) - 1(x + 2) = (2x - 1)(x + 2)
+- Therefore, the complete factorization is:
+  - f(x) = x(2x - 1)(x + 2)
